@@ -1,0 +1,33 @@
+<div >
+  <p> Ajout CV</p>
+
+  <form (ngSubmit)="onSubmit(ajoutcv)" #ajoutcv = "ngForm">
+    <br><br>
+    Nom <input type="text" name = 'name' ngModel>
+    <br><br>
+    Prénom <input type="text" name = 'prenom' ngModel>
+    <br><br>
+    Adresse <input type="text" name = 'adresse' ngModel>
+    <br><br>
+    Ville <input type="text" name = 'ville' ngModel>
+    <br><br>
+    Pays <input type="text" name = 'pays' ngModel>
+    <br><br>
+    Nombre années d'experiences <input type="number" name = 'nb' ngModel>
+    <br><br>
+    Email <input type="email" name = 'email' ngModel>
+    <br><br>
+    Stagiaire <input type="checkbox" name = 'stage' ngModel>
+    <br><br>
+    Profil (de, Bi..) <input type="text" name = 'profil' ngModel>
+    <br><br>
+    compétences et résumé <input type="text" name = 'cprs' ngModel>
+    <br><br>
+    Importer Cv <input type="file" name = 'impcv' ngModel>
+    <br><br>
+    <button type="submit">Sauvegarder</button>
+    <button>Annuler</button>
+    </form>
+
+</div>
+
